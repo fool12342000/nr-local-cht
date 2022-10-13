@@ -1,8 +1,8 @@
 [ModMeta]
 schema=1
 name=Traditional Chinese Translation
-author=cash & Tsumugi Wenders & WONDEO
-version=1.5.31_2
+author=Cash & Tsumugi Wenders & WONDEO
+version=1.5.33
 
 [Language]
 code_iso_639_2=zho

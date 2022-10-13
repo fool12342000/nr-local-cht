@@ -390,7 +390,7 @@ msgstr "在{} 到達"
 
 msgctxt "path2_ride"
 msgid "Ride {0} for {1}"
-msgst r "乘坐{0}{1}"
+msgstr "乘坐{0}{1}"
 
 msgctxt "path2_take2"
 msgid " Up to {0} [{1}]"
@@ -1169,7 +1169,7 @@ msgstr "警報時暫停遊戲"
 
 msgctxt "alerts_pause_game_fastest"
 msgid "Even at fastest speed"
-msg str "最快速度下仍然暫停"
+msgstr "最快速度下仍然暫停"
 
 msgctxt "apply"
 msgid "Apply"
@@ -1973,7 +1973,7 @@ msgstr "按Shift 鍵改變信號方向"
 
 msgctxt "editor_tip_paste"
 msgid "Ctrl-V to paste clipboard objects"
-msg str "Ctrl + V 鍵粘貼對象"
+msgstr "Ctrl + V 鍵貼上剪貼簿物件"
 
 msgctxt "editor_tip_rect_left"
 msgid "Release the left button to end rectangle selection"
@@ -2153,7 +2153,7 @@ msgstr "存檔名稱:"
 
 msgctxt "file_picker_version"
 msgid "Game version:"
-msg str "遊戲版本:"
+msgstr "遊戲版本:"
 
 msgctxt "file_picker_version_old"
 msgid "1.1.35 or earlier (model v{})"
@@ -2216,7 +2216,7 @@ msgid "Year retired"
 msgstr "封存年份"
 
 msgctxt "friend_state_away"
-msgi d "Away"
+msgid "Away"
 msgstr "離開"
 
 msgctxt "friend_state_busy"
@@ -2825,7 +2825,7 @@ msgstr "導入數據庫"
 
 msgctxt "loader_importing_sim"
 msgid "Importing simulation state"
-msgs tr "導入模擬狀態"
+msgstr "導入模擬狀態"
 
 msgctxt "loader_parsing_header"
 msgid "Parsing header"
@@ -2939,7 +2939,7 @@ msgctxt "lonely_station"
 msgid "Lonely Station"
 msgstr "獨立的車站"
 
-msgctx t "main_options"
+msgctxt "main_options"
 msgid "Options"
 msgstr "選項"
 
@@ -4017,7 +4017,7 @@ msgstr "進路信號機"
 
 msgctxt "signal_kind_simple_block"
 msgid "Simple block"
-msgs tr "閉塞信號機"
+msgstr "閉塞信號機"
 
 msgctxt "signal_limits_block"
 msgid "Bounds other signals:"
@@ -4687,7 +4687,7 @@ msgctxt "train_info_speed"
 msgid "Speed / max:"
 msgstr "當前速度/ 最大速度:"
 
-ms gctxt "train_info_status"
+msgctxt "train_info_status"
 msgid "Status:"
 msgstr "數據:"
 
@@ -4887,7 +4887,7 @@ msgctxt "ugc_valid_desc_req"
 msgid "Description is required"
 msgstr "描述為必填項"
 
-msgct xt "ugc_valid_desc_too_long"
+msgctxt "ugc_valid_desc_too_long"
 msgid "Description is too long"
 msgstr "描述過長"
 
@@ -5494,7 +5494,7 @@ msgctxt "train_purchase_sched_simple"
 msgid "Run an existing line"
 msgstr "運行既有路線"
 
-ms gctxt "train_sched_add"
+msgctxt "train_sched_add"
 msgid "Toggle new slots mode"
 msgstr "切換新建時段模式"
 
@@ -5907,7 +5907,7 @@ msgstr "近郊向通用型近郊電車(6節)"
 
 msgctxt "jp_generic_jr_817_c_4"
 msgid "Generic Suburban Train (8 Cars)"
-ms gstr "近郊向通用型近郊電車(8節)"
+msgstr "近郊向通用型近郊電車(8節)"
 
 msgctxt "jp_generic_jr_817_c_5"
 msgid "Generic Suburban Train (10 Cars)"
