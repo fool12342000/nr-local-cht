@@ -6,7 +6,7 @@ msgstr "人次"
 
 msgctxt "accounting_pax_found_train_too_full"
 msgid "Boarding failed: full train"
-msgstr " 乘車失敗：列車滿員"
+msgstr "    列車滿員"
 
 msgctxt "auto_platform_scroll"
 msgid "Automatically track and scroll the list based on the time of day"
@@ -150,7 +150,7 @@ msgstr "自動間距:"
 
 msgctxt "lineeditor_auto_interval_auto_no_trains"
 msgid "Add one or more auto run trains"
-msgstr "添加一列或多列自動運行的列車"
+msgstr "增加一列或多列自動運行的列車"
 
 msgctxt "lineeditor_auto_interval_kind2"
 msgid "Launch trains:"
@@ -174,11 +174,11 @@ msgstr "自定義運行週期:"
 
 msgctxt "lineeditor_custom_duration_desc"
 msgid "Format: hh:mm:ss\nIf the line duration is shorter than this amount, stops flagged as custom duration wait stops will have extra stop time, until the line duration matches the custom duration.\nThe extra time is d istributed evenly between the stops. If no stops are selected as custom wait, the last line stop is used."
-msgstr "格式: hh:mm:ss \n如果路線運行週期小於該值，則將會把額外時間平均補充到所有啟用等候時間的站點間。 \n如果沒有任何站點啟用等候時間，則將默認為僅始發站啟用等候時間。 "
+msgstr "格式: hh:mm:ss \n如果路線運行週期小於該值，則將會把額外時間平均補充到所有啟用等候時間的停靠站間。 \n如果沒有任何停靠站啟用等候時間，則將預設為僅始發站啟用等候時間。 "
 
 msgctxt "lineeditor_custom_period"
 msgid "Custom period:"
-msgstr "自定義週期"
+msgstr "自定週期"
 
 msgctxt "lineeditor_custom_period_desc"
 msgid "Format: hh:mm:ss\n.Line duration will be choosen to perfectly fit this length of time. This custom setting does not guarantee fitting days or weeks."
@@ -186,7 +186,7 @@ msgstr "格式: hh:mm:ss \n路線持續時間將完全適配這段自定義週�
 
 msgctxt "lineeditor_custom_wait_here"
 msgid "Custom duration wait in this stop"
-msgstr "在此站點等待運行週期"
+msgstr "在此停靠站等待運行週期"
 
 msgctxt "lineeditor_duration_custom"
 msgid "Custom"
@@ -194,7 +194,7 @@ msgstr "自定義"
 
 msgctxt "lineeditor_duration_fit_period"
 msgid "Fit a period"
-msgstr "適合時段"
+msgstr "符合週期"
 
 msgctxt "lineeditor_duration_mode"
 msgid "Line duration:"
@@ -226,11 +226,11 @@ msgstr "額外等待時間:"
 
 msgctxt "lineeditor_duration_waiters_all"
 msgid "Evenly on all stops"
-msgstr "平均分配到所有站點"
+msgstr "平均分配到所有停靠站"
 
 msgctxt "lineeditor_duration_waiters_custom"
 msgid "Manually picked stops"
-msgstr "自定義等待站點"
+msgstr "自定義等待停靠站"
 
 msgctxt "lineeditor_header_full_tooltip"
 msgid "Custom loop: {0}\nCustom non- loop: {1}\nMinimal loop: {2}\nMinimal non-loop: {3}"
@@ -254,7 +254,7 @@ msgstr "手動間距:"
 
 msgctxt "lineeditor_stop_panel_editor2"
 msgid "Stop {}"
-msgstr "站點{}"
+msgstr "停靠站{}"
 
 msgctxt "lineeditor_tooltip_clone"
 msgid "Clone selected line"
@@ -262,7 +262,7 @@ msgstr "複製選中的路線"
 
 msgctxt "lineeditor_tooltip_depot_new"
 msgid "Create a new depot line"
-msgstr "創建一條新機廠路線"
+msgstr "建立一條新機廠路線"
 
 msgctxt "lineeditor_tooltip_down_shift"
 msgid "Shift down all line stops"
@@ -714,11 +714,11 @@ msgstr "格式: (-)hh:mm:ss\nShift the start of the auto copied orders by this a
 
 msgctxt "traineditor_order_append"
 msgid "Append new order"
-msgstr "添加新指令"
+msgstr "增加新指令"
 
 msgctxt "traineditor_order_append_action"
 msgid "Append new order"
-msgstr "添加新指令"
+msgstr "增加新指令"
 
 msgctxt "traineditor_order_bulk_edit"
 msgid "Bulk edit orders"
@@ -774,7 +774,7 @@ msgstr "清除所選的指令"
 
 msgctxt "traineditor_order_select_paste"
 msgid "Paste orders"
-msgstr "粘貼指令"
+msgstr "貼上指令"
 
 msgctxt "traineditor_order_shift_by"
 msgid "By:"
@@ -929,19 +929,19 @@ msgstr "建築"
 
 msgctxt "accounting_construction_depots"
 msgid "Depots"
-msgstr " 機廠"
+msgstr "    機廠"
 
 msgctxt "accounting_construction_stations"
 msgid "Platforms"
-msgstr " 月台"
+msgstr "    月台"
 
 msgctxt "accounting_construction_total"
 msgid "Total c onstruction"
-msgstr " 總計"
+msgstr "    總計"
 
 msgctxt "accounting_construction_tracks"
 msgid "Tracks"
-msgstr " 軌道"
+msgstr "    軌道"
 
 msgctxt "accounting_financing"
 msgid "Financing"
@@ -949,15 +949,15 @@ msgstr "財務"
 
 msgctxt "accounting_financing_credit"
 msgid "Credit"
-msgstr " 貸款"
+msgstr "    貸款"
 
 msgctxt "accounting_financing_interest"
 msgid "Interest"
-msgstr " 償還貸款"
+msgstr "    償還貸款"
 
 msgctxt "accounting_found_station_too_full"
 msgid "Compen.: full station"
-msgstr " 因車站爆滿無法進站而獲得賠償"
+msgstr "            因車站爆滿無法進站而獲得賠償"
 
 msgctxt "accounting_km_post"
 msgid "km"
@@ -973,15 +973,15 @@ msgstr "    發送乘客"
 
 msgctxt "accounting_pax_compensated"
 msgid "Compensated"
-msgstr " 賠償"
+msgstr "        賠償"
 
 msgctxt "accounting_pax_intervention"
 msgid "Compen.: intervention"
-msgstr " 因列車干預而獲得賠償"
+msgstr "            因列車干預而獲得賠償"
 
 msgctxt "accounting_pax_lost"
 msgid "Compen.: lost"
-msgstr " 因路線更改或刪除而獲得賠償"
+msgstr "            因路線更改或刪除而獲得賠償"
 
 msgctxt "accounting_pax_never_serviced"
 msgid "Never serviced"
@@ -989,7 +989,7 @@ msgstr "    歷史新乘客"
 
 msgctxt "accounting_pax_new"
 msgid "New pax"
-msgstr " 新行程乘客"
+msgstr "    新行程乘客"
 
 msgctxt "accounting_pax_post"
 msgid "pax"
@@ -997,7 +997,7 @@ msgstr "人"
 
 msgctxt "accounting_pax_reached_depot"
 msgid "Refund: reached depot"
-msgstr " 因被送到機廠而退票"
+msgstr "        因被送到機廠而退票"
 
 msgctxt "accounting_pax_reached_destination"
 msgid "Reached destination"
@@ -1009,11 +1009,11 @@ msgstr "    轉乘乘客"
 
 msgctxt "accounting_pax_refunded"
 msgid "Refunded (incl. compen.)"
-msgstr " 總退票人數(含賠償)"
+msgstr "    總退票人數(含賠償)"
 
 msgctxt "accounting_pax_refused_fare"
 msgid "Refund: too high fare"
-msgstr " 因票價過高而退票"
+msgstr "        因票價過高而退票"
 
 msgctxt "accounting_pax_spawned"
 msgid "Started trip"
@@ -1021,7 +1021,7 @@ msgstr "    購票乘客"
 
 msgctxt "accounting_pax_waited_too_long"
 msgid "Compen.: waited too long"
-msgstr " 因等待時間過長而獲得賠償"
+msgstr "            因等待時間過長而獲得賠償"
 
 msgctxt "accounting_period_day"
 msgid "Day"
@@ -1033,7 +1033,7 @@ msgstr "生涯"
 
 msgctxt "accounting_period_lifetime_unknown"
 msgid "Since its creation"
-msgstr "自遊戲創建以來"
+msgstr "自遊戲建立以來"
 
 msgctxt "accounting_period_month"
 msgid "Month"
@@ -1353,7 +1353,7 @@ msgstr "軌道上方"
 
 msgctxt "building_draw_layer_3"
 msgid "Roof"
-msgstr "房頂"
+msgstr "屋頂"
 
 msgctxt "building_end_t"
 msgid "End t (0 to 1):"
@@ -1493,7 +1493,7 @@ msgstr "素材中包含物品物品或模組"
 
 msgctxt "confirm_clip_unknown_desc_1"
 msgid "One or more objects in the clip references an unknown object kind:\n"
-msgstr "素材中的部分物品引用了未知的對像類型:\n"
+msgstr "素材中的部分物品引用了未知的物件類型:\n"
 
 msgctxt "confirm_clip_unknown_desc_2"
 msgid "One or more objects in the clip references an unknown mod:\n"
@@ -1501,11 +1501,11 @@ msgstr "素材中的部分物品引用了未知的模組:\n"
 
 msgctxt "confirm_clip_unknown_desc_3"
 msgid "Copy with built-in to replace unknown objects with built-in objects, avoiding new mods and object kinds being imported into your game.\n"
-msgstr "用built-in 中的對象替換未知對象，以避免將新的模組和對像類型導入遊戲。 \n"
+msgstr "用內建的物件替換未知物件，以避免將新的模組和物件類型導入遊戲。 \n"
 
 msgctxt "confirm_clip_unknown_desc_4"
 msgid "Copy with new mods to import new object kinds and to enable their mods in your game. You will then need to subscribe to these mods in the Steam Workshop if you are not yet subscribed."
-msgstr "導入新的對像類型，並在遊戲中啟用對應的模組。若模組未訂閱，則需要前往創意工坊先訂閱。 "
+msgstr "導入新的物件類型，並在遊戲中啟用對應的模組。若模組未訂閱，則需要前往創意工坊先訂閱。 "
 
 msgctxt "confirm_collection_delete"
 msgid "Delete collection"
@@ -1561,7 +1561,7 @@ msgstr "一條或多條軌道發生衝突或仍在驗證中，無法建設、移
 
 msgctxt "connecting_elip"
 msgid "Connecting..."
-msgstr "少女祈禱中……"
+msgstr "連線中……"
 
 msgctxt "connection_denied"
 msgid "Connection denied"
@@ -1633,7 +1633,7 @@ msgstr "繼續遊戲"
 
 msgctxt "copied_from_coll"
 msgid "Copied! Paste with Ctrl-V"
-msgstr "使用Ctrl + V 鍵粘貼"
+msgstr "使用Ctrl + V 鍵貼上"
 
 msgctxt "copy"
 msgid "Copy"
@@ -1681,7 +1681,7 @@ msgstr "交通"
 
 msgctxt "default_han_font"
 msgid "Default Han font:"
-msgstr "默認漢字字體:"
+msgstr "預設漢字字體:"
 
 msgctxt "default_han_font_chi"
 msgid "Simplified Chinese"
@@ -1729,7 +1729,7 @@ msgstr "刪除路線並出售列車"
 
 msgctxt "delete_tracks"
 msgid "Delete objects"
-msgstr "刪除對象"
+msgstr "刪除物件"
 
 msgctxt "demand_pax_overall"
 msgid "{:.1f} pax/s"
@@ -1745,7 +1745,7 @@ msgstr "描述:"
 
 msgctxt "disabled"
 msgid "Disabled"
-msgstr "禁用"
+msgstr "停用"
 
 msgctxt "display_mode"
 msgid "Mode:"
@@ -1753,23 +1753,23 @@ msgstr "顯示:"
 
 msgctxt "display_mode_exclusive_fullscreen"
 msgid "Exclusive fullscreen"
-msgstr "全屏"
+msgstr "全螢幕"
 
 msgctxt "display_mode_windowed"
 msgid "Windowed"
-msgstr "窗口"
+msgstr "視窗"
 
 msgctxt "display_mode_windowed_fullscreen"
 msgid "Windowed fullscreen"
-msgstr "無邊框窗口"
+msgstr "視窗化全螢幕"
 
 msgctxt "displa y_screen"
 msgid "Display:"
-msgstr "顯示屏幕:"
+msgstr "顯示螢幕:"
 
 msgctxt "display_screen_leave_alone"
 msgid "Do not set"
-msgstr "默認"
+msgstr "預設"
 
 msgctxt "done"
 msgid "Done"
@@ -1785,15 +1785,15 @@ msgstr "編輯收藏夾名稱"
 
 msgctxt "editor_add"
 msgid "Append to tracks or create new ones"
-msgstr "添加軌道或創建新的軌道"
+msgstr "增加軌道或建立新的軌道"
 
 msgctxt "editor_branch"
 msgid "Create new track branches"
-msgstr "創建新的軌道分支"
+msgstr "建立新的軌道分支"
 
 msgctxt "editor_building"
 msgid "Create new buildings"
-msgstr "創建新的建築"
+msgstr "建立新的建築"
 
 msgctxt "editor_edit_signal"
 msgid "Move, delete and edit signals"
@@ -1805,7 +1805,7 @@ msgstr "移動、刪除與編輯軌道"
 
 msgctxt "editor_new_signal"
 msgid "Create new signals"
-msgstr "創建新的信號"
+msgstr "建立新的信號"
 
 msgctxt "editor_pick_building_parent_left"
 msgid "Click a control point to make it the building parent"
@@ -1821,15 +1821,15 @@ msgstr "點擊一個軌道控制點來綁定到軌道節點"
 
 msgctxt "editor_select_add_platform"
 msgid "Click platform letters in stations to add stops to the line"
-msgstr "點擊車站內的月台字母編號，增加路線的站點"
+msgstr "點擊車站內的月台字母編號，增加路線的停靠站"
 
 msgctxt "editor_select_add_waypoint"
 msgid "Click track segments to add waypoints to the line"
-msgstr "點擊軌跡段，將路徑點添加到路線上"
+msgstr "點擊軌道區段，將路徑點增加到路線上"
 
 msgctxt "editor_station"
 msgid "Create new station platforms"
-msgstr "創建新的車站月台"
+msgstr "建立新的車站月台"
 
 msgctxt "editor_tip_add_esc"
 msgid "Esc to go to edit mode"
@@ -1841,7 +1841,7 @@ msgstr "左鍵點擊軌道控制點(十字點)，以延伸現有的軌道"
 
 msgctxt "editor_tip_add_left2"
 msgid "Left click anywhere else to create a new track"
-msgstr "在任何地方點擊左鍵來創建新的軌道"
+msgstr "在任何地方點擊左鍵來建立新的軌道"
 
 msgctxt "editor_tip_branch_esc"
 msgid "Esc to go to edit mode"
@@ -1849,15 +1849,15 @@ msgstr "按ESC 鍵回到編輯模式"
 
 msgctxt "editor_tip_branch_left"
 msgid "Left click to create the branch"
-msgstr "左鍵單擊以創建軌道分支"
+msgstr "左鍵單擊以建立軌道分支"
 
 msgctxt "edit or_tip_branch_mouse"
 msgid "Hover the mouse cursor near an existing track to start a new branch"
-msgstr "將鼠標光標移到現有軌道附近以創建新的軌道分支"
+msgstr "將鼠標光標移到現有軌道附近以建立新的軌道分支"
 
 msgctxt "editor_tip_cont_alt"
 msgid "Alt to toggle the parallel track side"
-msgstr "按Alt 鍵交叉軌道，改變軌道行進的方向"
+msgstr "按Alt 鍵切換平行軌道方向"
 
 msgctxt "editor_tip_cont_ctrl"
 msgid "Hold Ctrl to line up track with its previous track segment."
@@ -1869,7 +1869,7 @@ msgstr "按ESC 鍵取消"
 
 msgctxt "editor_tip_cont_left"
 msgid "Left click to create a new track segment. Hold Shift to keep creating more segments."
-msgstr "左鍵單擊，創建新的軌道。按住Shift 鍵，繼續創造更多的軌道"
+msgstr "左鍵單擊，建立新的軌道。按住Shift 鍵，繼續創造更多的軌道"
 
 msgctxt "editor_tip_cont_mouse"
 msgid "Hover the mouse cursor over an existing end of track to see how it would look linked with your current track"
@@ -1877,11 +1877,11 @@ msgstr "將鼠標指向現有軌道的末端，看看與你剛設計軌道的連
 
 msgctxt "editor_tip_copy"
 msgid "Ctrl-C to copy selected objects into clipboard"
-msgstr "Ctrl + C 鍵將選定的對象複製到剪貼板"
+msgstr "Ctrl + C 鍵將選定的物件複製到剪貼簿"
 
 msgctxt "editor_tip_create_del"
 msgid "Del to delete selected objects"
-msgstr "按Delete 鍵刪除選定的對象"
+msgstr "按Delete 鍵刪除選定的物件"
 
 msgctxt "editor_tip_create_drag"
 msgid "Drag any selected control point to move the selection"
@@ -1889,7 +1889,7 @@ msgstr "拖動任何選定的控制點來移動選區"
 
 msgctxt "editor_tip_create_drag_alt"
 msgid "Alt and drag any selected control point to rotate the selection"
-msgstr "點擊Alt 鍵並拖動選定的控制點來旋轉對象"
+msgstr "點擊Alt 鍵並拖動選定的控制點來旋轉物件"
 
 msgctxt "editor_tip_create_esc"
 msgid "Esc to cancel selection"
@@ -1901,7 +1901,7 @@ msgstr "左鍵點擊控制點來選擇它們"
 
 msgctxt "editor_tip_create_left2"
 msgid "Left click on station name plates to edit station details"
-msgstr "左鍵點擊站名板，以編輯站點詳情"
+msgstr "左鍵點擊站名板，以編輯停靠站詳情"
 
 msgctxt "editor_tip_create_left3"
 msgid "Left click on control points to reset selection"
@@ -1909,11 +1909,11 @@ msgstr "左鍵點擊控制點來重新選擇"
 
 msgctxt "editor_tip_create_prompt_sel"
 msgid "To move or delete objects, you must select their control points"
-msgstr "要移動或刪除對象，必須選擇它們的控制點"
+msgstr "要移動或刪除物件，必須選擇它們的控制點"
 
 msgctxt "editor_tip_create_rebp2"
 msgid "{} to change selected built object(s) into blueprint object(s)"
-msgstr "按{}鍵將已經建造的對象重新更改為藍圖"
+msgstr "按{}鍵將已經建造的物件重新更改為藍圖"
 
 msgctxt "editor_tip_create_sleft"
 msgid "Shift left click to add or remove points from selection"
@@ -1953,11 +1953,11 @@ msgstr "放開左鍵停止選擇"
 
 msgctxt "editor_tip_new_building_fin_left"
 msgid "Left click to finish creating a new building"
-msgstr "左鍵點擊完成創建新的建築"
+msgstr "左鍵點擊完成建立新的建築"
 
 msgctxt "editor_tip_new_building_left"
 msgid "Left click to create a new building"
-msgstr "左鍵單擊創建一個新的建築"
+msgstr "左鍵單擊建立一個新的建築"
 
 msgctxt "editor_tip_new_signal_esc"
 msgid "Esc to go to signal edit mode"
@@ -1965,7 +1965,7 @@ msgstr "按ESC 鍵回到信號編輯模式"
 
 msgctxt "editor_tip_new_signal_left"
 msgid "Left click to create signal"
-msgstr "左鍵單擊來創建信號"
+msgstr "左鍵單擊來建立信號"
 
 msgctxt "editor_tip_new_signal_shift"
 msgid "Shift to change signal facing direction"
@@ -1981,7 +1981,7 @@ msgstr "鬆開左鍵，結束矩形選擇"
 
 msgctxt "editor_tip_rot_left"
 msgid "Release left button to stop rotating the selection"
-msgstr "鬆開左鍵停止旋轉選擇的對象"
+msgstr "鬆開左鍵停止旋轉選擇的物件"
 
 msgctxt "editor_tip_sel_signal_del"
 msgid "Del to delete selected signals"
@@ -2025,11 +2025,11 @@ msgstr "按ESC 鍵取消"
 
 msgctxt "editor_tip_station_fin_left"
 msgid "Left click to finish creating a new station platform"
-msgstr "左鍵單擊完成創建新的車站"
+msgstr "左鍵單擊完成建立新的車站"
 
 msgctxt "editor_tip_station_left"
 msgid "Left click to create a new station platform"
-msgstr "左鍵點擊創建一個新的車站"
+msgstr "左鍵點擊建立一個新的車站"
 
 msgctxt "editor_tip_undo"
 msgid "Ctrl-Z to undo the last edit"
@@ -2061,7 +2061,7 @@ msgstr "至少有一個運行時間被設置為0。編輯完路線後請使用�
 
 msgctxt "empty_clipboard"
 msgid "<Empty clipboard>"
-msgstr "<空剪貼板>"
+msgstr "<空剪貼簿>"
 
 msgctxt "enable_new_mods"
 msgid "Copy with new mods"
@@ -2097,19 +2097,19 @@ msgstr "保存遊戲時出現內部錯誤"
 
 msgctxt "error_too_new_save"
 msgid "The game version that created this save file is newer than your game version. Update the game to load this file."
-msgstr "創建此存檔的遊戲版本比你的遊戲版本新，請更新遊戲以加載這個文件"
+msgstr "建立此存檔的遊戲版本比你的遊戲版本新，請更新遊戲以加載這個文件"
 
 msgctxt "error_too_new_save_v"
 msgid "The game version ({}.{}.{}.{}) that created this save file is newer than your game version ({}.{}.{}.{}). Update the game to load this file."
-msgstr "創建此存檔的遊戲版本({}.{}.{}.{})比當前的遊戲版本({}.{}.{}.{})新，更新遊戲以加載該存檔"
+msgstr "建立此存檔的遊戲版本({}.{}.{}.{})比當前的遊戲版本({}.{}.{}.{})新，更新遊戲以加載該存檔"
 
 msgctxt "error_too_old_save"
 msgid "The game version that created this save file is too old and it cannot be loaded. Try the older v1.1 legacy branches in Steam."
-msgstr "創建此存檔的遊戲版本太舊，無法加載。請嘗試Steam上過時的v1.1分支版本。 "
+msgstr "建立此存檔的遊戲版本太舊，無法加載。請嘗試Steam上過時的v1.1分支版本。 "
 
 msgctxt "error_too_old_save_v"
 msgid "The game version ({}.{}.{}.{}) that created this save file is too old and it cannot be loaded. Try the legacy branches in Steam."
-msgstr "創建此存檔的遊戲版本({}.{}.{}.{})比當前的遊戲版本舊，請嘗試使用Steam中的舊版分支"
+msgstr "建立此存檔的遊戲版本({}.{}.{}.{})比當前的遊戲版本舊，請嘗試使用Steam中的舊版分支"
 
 msgctxt "error_writing_file"
 msgid "Error writing to file"
@@ -2305,7 +2305,7 @@ msgstr "高架"
 
 msgctxt "host_game"
 msgid "Host game"
-msgstr "創建多人遊戲"
+msgstr "建立多人遊戲"
 
 msgctxt "host_game_speed"
 msgid "Game speed:"
@@ -2313,7 +2313,7 @@ msgstr "遊戲速度:"
 
 msgctxt "host_game_speed_warn"
 msgid "Large and complex builds, with many trains and stations, may not be playable at more than 1x speed in a multiplayer session."
-msgstr "在多人遊戲中可能無法以超過1倍的速度進行遊戲，因為遊戲中包含許多需要大量複雜的創建與運算的場景。 "
+msgstr "在多人遊戲中可能無法以超過1倍的速度進行遊戲，因為遊戲中包含許多需要大量複雜的建立與運算的場景。 "
 
 msgctxt "icon_file"
 msgid "Icon file:"
@@ -2385,7 +2385,7 @@ msgstr "下一站"
 
 msgctxt "info_table_pax_next_tp"
 msgid "Next stop station"
-msgstr "下一車站站點"
+msgstr "下一車站停靠站"
 
 msgctxt "info_table_pax_origin"
 msgid "Origin"
@@ -2441,7 +2441,7 @@ msgstr "加入遊戲"
 
 msgctxt "joincode_client_info"
 msgid "Paste a join code to join a player hosted server. If the player is offline or ignores your request, the connection will fail."
-msgstr "粘貼一個加入代碼來加入一個玩家託管的服務器。如果玩家離線或忽略你的請求，連接將失敗。 "
+msgstr "貼上一個加入代碼來加入一個玩家託管的服務器。如果玩家離線或忽略你的請求，連接將失敗。 "
 
 msgctxt "joincode_server_info"
 msgid "This join code allows any player to join your hosted game, even if they are not in your friend list. Make sure your Access rules are set to Allow or to Ask, otherwise players will be ignored even if they have a correct join code."
@@ -2517,15 +2517,15 @@ msgstr "軌道:雙軌"
 
 msgctxt "kb_track_branch"
 msgid "Tracks: new branch"
-msgstr "軌道:創建軌道分支"
+msgstr "軌道:建立軌道分支"
 
 msgctxt "kb_track_building"
 msgid "Tracks: new building"
-msgstr "軌道:創建建築"
+msgstr "軌道:建立建築"
 
 msgctxt "kb_track_depot"
 msgid "Tracks: new depot"
-msgstr "軌道:創建機廠"
+msgstr "軌道:建立機廠"
 
 msgctxt "kb_track_flip_signal"
 msgid "Tracks: flip selected signal"
@@ -2545,11 +2545,11 @@ msgstr "軌道:選擇軌道"
 
 msgctxt "kb_track_new"
 msgid "Tracks: new tracks"
-msgstr "軌道:創建軌道"
+msgstr "軌道:建立軌道"
 
 msgctxt "kb_track_new_signal"
 msgid "Tracks: new signal"
-msgstr "軌道:創建信號"
+msgstr "軌道:建立信號"
 
 msgctxt "kb_track_sel_signal"
 msgid "Tracks: select signal"
@@ -2557,7 +2557,7 @@ msgstr "軌道:選擇信號"
 
 msgctxt "kb_track_station"
 msgid "Tracks: new station"
-msgstr "軌道:創建月台"
+msgstr "軌道:建立月台"
 
 msgctxt "kb_tracks_unbp"
 msgid "Tracks: unblueprint"
@@ -2745,7 +2745,7 @@ msgstr "在路線上增加車站"
 
 msgctxt "lineeditor_tooltip_add_waypoint_mode"
 msgid "Add waypoints to line"
-msgstr "在路線上添加導航點"
+msgstr "在路線上增加導航點"
 
 msgctxt "lineeditor_tooltip_del"
 msgid "Delete selected line"
@@ -2761,7 +2761,7 @@ msgstr "向下移動選定的車站\n按住Shift 鍵緩慢移動"
 
 msgctxt "lineeditor_tooltip_new"
 msgid "Create a new line"
-msgstr "創建一條新路線"
+msgstr "建立一條新路線"
 
 msgctxt "lineeditor_tooltip_purchase_trains"
 msgid "Purchase new trains for this line"
@@ -2793,7 +2793,7 @@ msgstr "逆序"
 
 msgctxt "load_game"
 msgid "Load game"
-msgstr "加載遊戲"
+msgstr "載入遊戲"
 
 msgctxt "loader_cancelling"
 msgid "Cancelling"
@@ -2801,7 +2801,7 @@ msgstr "取消中"
 
 msgctxt "loader_db_snapshot"
 msgid "Loading database snapshot"
-msgstr "正在加載數據庫快照"
+msgstr "正在載入資料庫快照"
 
 msgctxt "loader_decompressing"
 msgid "Decompressing"
@@ -2817,7 +2817,7 @@ msgstr "無效狀態"
 
 msgctxt "loader_final"
 msgid "Finalizing"
-msgstr "少女祈禱中"
+msgstr "完成中"
 
 msgctxt "loader_importing_db"
 msgid "Importing database"
@@ -2857,7 +2857,7 @@ msgstr "更新遊戲規則"
 
 msgctxt "loading_elip"
 msgid "Loading..."
-msgstr "少女祈禱中……"
+msgstr "讀取中……"
 
 msgctxt "loan_balance"
 msgid "Balance:"
@@ -3045,15 +3045,15 @@ msgstr "訂閱所有缺失的模組"
 
 msgctxt "mod_uploader_busy"
 msgid "Uploading mod..."
-msgstr "上傳mod 中……"
+msgstr "上傳模組中……"
 
 msgctxt "mod_uploader_info"
 msgid "The mod uploader is a tool for mod developers. If you want to use mods when playing the game, subscribe to them in the Steam Workshop and enable them when creating a new game."
-msgstr "mod 上傳器是mod 開發者的工具。如果你想在遊戲中使用mod ，請在Steam 創意工坊中訂閱，並在創建新遊戲時啟用模組"
+msgstr "mod 上傳器是mod 開發者的工具。如果你想在遊戲中使用mod ，請在Steam 創意工坊中訂閱，並在建立新遊戲時啟用模組"
 
 msgctxt "mod_uploader_info_guide"
 msgid "Mod development guide"
-msgstr "mod 開髮指南"
+msgstr "模組開發指南"
 
 msgctxt "mod_uploader_info_open_browser"
 msgid "Visit Workshop"
@@ -3065,7 +3065,7 @@ msgstr "管理創意工坊"
 
 msgctxt "mod_uploader_info_use_uploader"
 msgid "Use Mod Uploader"
-msgstr "使用mod 上傳器"
+msgstr "使用模組上傳器"
 
 msgctxt "mod_uploader_new_mod"
 msgid "New mod"
@@ -3229,7 +3229,7 @@ msgstr "< 主機聊天鏈接為空或無效>"
 
 msgctxt "motd_url_desc"
 msgid "Optionally paste here a URL that clients can visit to join your chat. For example, a Discord invite."
-msgstr "可以在這裡粘貼一個URL，讓玩家可以訪問這個網址來加入你的聊天。例如，一個Discord的邀請"
+msgstr "可以在這裡貼上一個URL，讓玩家可以訪問這個網址來加入你的聊天。例如，一個Discord的邀請"
 
 msgctxt "mp_action_allow"
 msgid "Allow"
@@ -3405,7 +3405,7 @@ msgstr "新遊戲"
 
 msgctxt "new_game_options"
 msgid "New game options"
-msgstr "創建遊戲選項"
+msgstr "建立遊戲選項"
 
 msgctxt "new_key_tip"
 msgid "Press new key or backspace to clear"
@@ -3425,7 +3425,7 @@ msgstr "新存檔命名:"
 
 msgctxt "new_save_placeholder"
 msgid "<Create new save>"
-msgstr "<創建新的存檔>"
+msgstr "<建立新的存檔>"
 
 msgctxt "no_cash_pop_desc"
 msgid "Not enough money to build the blueprint. Delete some blueprint tracks or make more money."
@@ -3565,7 +3565,7 @@ msgstr "上一級:"
 
 msgctxt "paste"
 msgid "Paste"
-msgstr "粘貼"
+msgstr "貼上"
 
 msgctxt "path_pax_train_warn"
 msgid "Path starts at pax next stop"
@@ -3625,15 +3625,15 @@ msgstr "< 選擇>"
 
 msgctxt "plat_auto_direction"
 msgid "Auto append direction signals"
-msgstr "自動添加單行方向標誌"
+msgstr "自動增加單行方向標誌"
 
 msgctxt "plat_buildings_base"
 msgid "Auto append building base"
-msgstr "自動添加基礎建築"
+msgstr "自動增加基礎建築"
 
 msgctxt "plat_buildings_floor"
 msgid "Auto append building floors and ceiling"
-msgstr "自動添加地板和天花板"
+msgstr "自動增加地板和天花板"
 
 msgctxt "plat_curved"
 msgid "Curved tracks and buildings"
@@ -3689,15 +3689,15 @@ msgstr "快速入門指南"
 
 msgctxt "quit_desktop"
 msgid "Quit to desktop"
-msgstr "退回到桌面"
+msgstr "離開到桌面"
 
 msgctxt "quit_game"
 msgid "Quit game"
-msgstr "退回到主菜單"
+msgstr "離開到主選單"
 
 msgctxt "rename_save"
 msgid "Rename and save"
-msgstr "重命名並保存"
+msgstr "重新命名並保存"
 
 msgctxt "renderer"
 msgid "Renderer:"
@@ -3793,7 +3793,7 @@ msgstr "在本站候車乘客的總人數"
 
 msgctxt "rtstat_pax_transfer"
 msgid "Contains transfer pax"
-msgstr "在本站候車的中轉乘客"
+msgstr "在本站候車的轉乘乘客"
 
 msgctxt "rtstat_pax_with_destination"
 msgid "Pax with destination at"
@@ -3801,7 +3801,7 @@ msgstr "以本站為目的地乘客"
 
 msgctxt "rtstat_pax_with_next"
 msgid "Pax with next stop at"
-msgstr "在本站下車（含中轉）乘客"
+msgstr "在本站下車（含轉乘）乘客"
 
 msgctxt "rtstat_pax_with_origin"
 msgid "Pax with origin at"
@@ -3825,7 +3825,7 @@ msgstr "保存"
 
 msgctxt "save_clipboard"
 msgid "Save clipboard"
-msgstr "保存到剪貼板"
+msgstr "保存到剪貼簿"
 
 msgctxt "save_file_name"
 msgid "Save file name"
@@ -3897,7 +3897,7 @@ msgstr "車站"
 
 msgctxt "search_section_train_models"
 msgid "Purchase train"
-msgstr "採購列車"
+msgstr "購買列車"
 
 msgctxt "search_section_trains"
 msgid "Trains"
@@ -3921,7 +3921,7 @@ msgstr "設置"
 
 msgctxt "show_all_clips"
 msgid "Show saved clipboard clips"
-msgstr "顯示剪貼板"
+msgstr "顯示剪貼簿"
 
 msgctxt "signal_alert_opt_custom"
 msgid "Custom wait time"
@@ -3981,7 +3981,7 @@ msgstr "不適用於所有列車"
 
 msgctxt "signal_filter_label"
 msgid "By default:"
-msgstr "默認情況:"
+msgstr "預設情況:"
 
 msgctxt "signal_filter_none"
 msgid "<No exceptions>"
@@ -4065,7 +4065,7 @@ msgstr "類型:"
 
 msgctxt "signal_warn_max_length"
 msgid "The block of track protected by this signal is too long. Introduce more signals in the block, like balises, to make it shorter."
-msgstr "閉塞區間過長，建議添加更多信號。 "
+msgstr "閉塞區間過長，建議增加更多信號。 "
 
 msgctxt "signal_warn_too_close"
 msgid "Too close"
@@ -4081,7 +4081,7 @@ msgstr "---財務---"
 
 msgctxt "sort_sep_real_time"
 msgid "--- Real time ---"
-msgstr "---實時---"
+msgstr "---即時---"
 
 msgctxt "start_game"
 msgid "Start game"
@@ -4239,7 +4239,7 @@ msgctxt "tag_end_of_train"
 msgid "End of train"
 msgstr "守車"
 
-msgctxt "tag_fan tasy"
+msgctxt "tag_fantasy"
 msgid "Fantasy"
 msgstr "幻想"
 
@@ -4308,7 +4308,7 @@ msgid "Long distance"
 msgstr "長途"
 
 msgctxt "tag_lounge"
-msgid "Loun ge"
+msgid "Lounge"
 msgstr "休息室"
 
 msgctxt "tag_maglev"
@@ -4409,7 +4409,7 @@ msgstr "三軌"
 
 msgctxt "tag_tilting"
 msgid "Tilting"
-msgstr "擺式"
+msgstr "傾斜式"
 
 msgctxt "tag_tram"
 msgid "Tram"
@@ -4453,7 +4453,7 @@ msgstr "雙月台設置行駛方向為左行"
 
 msgctxt "teo.plat_auto_scissors"
 msgid "Auto append scissor intersections and path signals for double platforms"
-msgstr "雙月台自動添加月台橫渡線及信號"
+msgstr "雙月台自動增加月台橫渡線及信號"
 
 msgctxt "teo.two ex_mode"
 msgid "Double track mode"
@@ -4909,7 +4909,7 @@ msgstr "標題過長"
 
 msgctxt "ugc_warn_already"
 msgid "A Mod is still being created and/or updated, please wait"
-msgstr "模組仍在創建或更新中，請稍等"
+msgstr "模組仍在建立或更新中，請稍等"
 
 msgctxt "unit_kmh"
 msgid "km/h"
@@ -4941,11 +4941,11 @@ msgstr "上傳模組"
 
 msgctxt "use_placeholders"
 msgid "Copy with built-in"
-msgstr "用內置對象複製"
+msgstr "用內置物件複製"
 
 msgctxt "used_active_mod"
 msgid "This m od is used by one or more objects in the game, and cannot be disabled."
-msgstr "這個mod會被遊戲中的一個或多個對象使用，並且不能被禁用"
+msgstr "這個mod會被遊戲中的一個或多個物件使用，並且不能被禁用"
 
 msgctxt "user_signal_light_cones"
 msgid "Signal light cones"
@@ -5084,11 +5084,11 @@ msgstr "%d 機廠"
 
 msgctxt "editor_depot"
 msgid "Create new depot"
-msgstr "創建新的機廠"
+msgstr "建立新的機廠"
 
 msgctxt "editor_select_pick_depot"
 msgid "Click a depot on the map to set this train slot order"
-msgstr "點擊地圖上的機廠，以確認這個時間段"
+msgstr "點擊地圖上的機廠以設定命令"
 
 msgctxt "editor_tip_branch_shift"
 msgid "Press shift for opposite direction"
@@ -5104,11 +5104,11 @@ msgstr "按ESC 鍵取消"
 
 msgctxt "editor_tip_depot_fin_left"
 msgid "Left click to finish creating a new depot"
-msgstr "左鍵點擊完成創建新的機廠"
+msgstr "左鍵點擊完成建立新的機廠"
 
 msgctxt "editor_tip_depot_left"
 msgid "Left click to create a new depot"
-msgstr "左鍵單擊創建一個新的機廠"
+msgstr "左鍵單擊建立一個新的機廠"
 
 msgctxt "invalid_location"
 msgid "Invalid"
@@ -5244,11 +5244,11 @@ msgstr "間距時間設定:"
 
 msgctxt "lineeditor_interval_wait_at_all_stops"
 msgid "All stops"
-msgstr "所有站點"
+msgstr "所有停靠站"
 
 msgctxt "lineeditor_interval_wait_at_desc"
 msgid "Increased stop times due to interval waiting will only be applied at these stops."
-msgstr "間距時間將適用於你選定的站點。 "
+msgstr "間距時間將適用於你選定的停靠站。 "
 
 msgctxt "lineeditor_interval_wait_at_first_stop"
 msgid "First stop"
@@ -5328,7 +5328,7 @@ msgstr "在{} 月台等候上車"
 
 msgctxt "pax_waiting_detail"
 msgid "New pax: {0}\nTransfer pax: {1} "
-msgstr "新乘客: {0} \n中轉乘客: {1}"
+msgstr "新乘客: {0} \n轉乘乘客: {1}"
 
 msgctxt "paxlist_n_new_pax"
 msgid "{} new"
@@ -5340,11 +5340,11 @@ msgstr "雙軌設置單行方向為左行"
 
 msgctxt "plat_auto_scissors"
 msgid "Auto append scissor intersections and path signals for double platforms"
-msgstr "自動添加月台橫渡線及信號機"
+msgstr "自動增加月台橫渡線及信號機"
 
 msgctxt "plat_auto_stops"
 msgid "Auto append platform stop point signals"
-msgstr "自動添加月台停車標誌"
+msgstr "自動增加月台停車標誌"
 
 msgctxt "sax_tooltip"
 msgid "Overall: {0:+.2f} ({1}) | Time: {2:+.2f} | Fare: {3:+.2f}"

@@ -5,9 +5,9 @@ author=Cash & Tsumugi Wenders & WONDEO
 version=1.5.33
 
 [Language]
-code_iso_639_2=zho
+code_iso_639_2=zht
 name=Traditional Chinese
 
 [LanguageDict]
-code_iso_639_2=zho
+code_iso_639_2=zht
 po=game.po
