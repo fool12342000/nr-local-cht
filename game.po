@@ -50,7 +50,7 @@ msgstr "自定限速"
 
 msgctxt "constraint_max_speed_tip"
 msgid "Values over physical max track speed will be ignored. Set to 0 to disable custom max speed."
-msgstr "列車最大速度取決於軌道限速，當軌道限速超過自定義限速時，將以自定義限速為準。 \n設置為0 時將忽略自定限速。 "
+msgstr "列車最大速度取決於軌道限速，當軌道限速超過自定義限速時，將以自定義限速為準。 \n設定為0 時將忽略自定限速。 "
 
 msgctxt "constraint_offset2"
 msgid "Parallel offset:"
@@ -70,11 +70,11 @@ msgstr "批量軌道編輯器"
 
 msgctxt "editor_select_alt_signal"
 msgid "Click signal controls to set a signal as the secondary path signal for the stop"
-msgstr "點擊信號控制按鈕，將信號設置為該車站的備用月台信號"
+msgstr "點擊信號控制按鈕，將信號設定為該車站的臨時月台信號"
 
 msgctxt "editor_select_alt_stop"
 msgid "Click platform letters in stations to add a secondary platform to the stop"
-msgstr "點擊車站中的月台編號，將其設定為該停靠站之備用月台"
+msgstr "點擊車站中的月台編號，將其設定為該停靠站之臨時月台"
 
 msgctxt "editor_select_change_platform"
 msgid "Click platform letters in stations to change the stop main platform"
@@ -162,7 +162,7 @@ msgstr "自動配置整條路線的調度指令"
 
 msgctxt "lineeditor_auto_interval_kind2_manual"
 msgid "On a fixed, manual interval"
-msgstr "以固定的手動間距設置調度指令"
+msgstr "以固定的手動間距設定調度指令"
 
 msgctxt "lineeditor_auto_timings"
 msgid "Auto run line"
@@ -242,7 +242,7 @@ msgstr "自動發車時間:"
 
 msgctxt "lineeditor_launch_time_desc"
 msgid "Format: hh:mm:ss\nTime of day for the first departure on the first stop for the first automatic train.\nThis setting only applies for trains in automatic orders mode.\nManual order trains using this line ignore this setting and are not counted towards interval calculation."
-msgstr "格式: hh:mm:ss \n該路線首趟列車從始發站發車的時間。 \n該設置僅適用於自動模式下的列車。 \n如您使用手動模式控制列車，請忽略此功能。 \n該時間不計入間距時間計算中。 "
+msgstr "格式: hh:mm:ss \n該路線首趟列車從始發站發車的時間。 \n該設定僅適用於自動模式下的列車。 \n如您使用手動模式控制列車，請忽略此功能。 \n該時間不計入間距時間計算中。 "
 
 msgctxt "lineeditor_main_platform"
 msgid "Main platform:"
@@ -298,7 +298,7 @@ msgstr "車站行為:"
 
 msgctxt "lineeditor_wait_kind_limbo"
 msgid "Black hole main, wait secondary"
-msgstr "自動清除優先"
+msgstr "優先於臨時月台等候，否則於主要月台自動清除"
 
 msgctxt "lineeditor_wait_kind_normal"
 msgid "Wait on platforms"
@@ -510,7 +510,7 @@ msgstr "素材過多"
 
 msgctxt "too_many_collections_body"
 msgid "Your saved and subscribed clips reached the limit of 50,000 tracks and buildings. Please delete some saved clips and/or unsubscribe from some collections."
-msgstr "你已經保存和訂閱了50,000份素材，請刪除或取消訂閱一些素材。 "
+msgstr "你已經儲存和訂閱了50,000份素材，請刪除或取消訂閱一些素材。 "
 
 msgctxt "train_clone_copier"
 msgid "Clone as copier"
@@ -558,7 +558,7 @@ msgstr "格式:hh:mm:ss\nEvenly distribute the start of the orders of the auto c
 
 msgctxt "train_group_migrate_but"
 msgid "Set as copiers"
-msgstr "設置為複制模式"
+msgstr "設定為複制模式"
 
 msgctxt "train_group_migrate_line"
 msgid "Migrate auto run trains"
@@ -670,7 +670,7 @@ msgstr "調度:"
 
 msgctxt "train_orders_mode_auto_copy"
 msgid "Auto copy manual orders"
-msgstr "自動複製已經設置好的調度指令"
+msgstr "自動複製已經設定好的調度指令"
 
 msgctxt "train_orders_mode_auto_line"
 msgid "Auto run a line"
@@ -1201,15 +1201,15 @@ msgstr "自動導出中……"
 
 msgctxt "autosave_interval"
 msgid "Autosave interval:"
-msgstr "自動保存時間間距:"
+msgstr "自動儲存時間間距:"
 
 msgctxt "autosave_slots"
 msgid "Autosave slots:"
-msgstr "自動保存槽數:"
+msgstr "自動儲存槽數:"
 
 msgctxt "autosaving"
 msgid "Autosaving..."
-msgstr "自動保存中……"
+msgstr "自動儲存中……"
 
 msgctxt "back"
 msgid "Back"
@@ -1241,19 +1241,19 @@ msgstr "{} 加入遊戲"
 
 msgctxt "banner_prompt_client_join_anon"
 msgid "Do you want to join a game hosted by {}? Your current game will be autosaved and you will quit the current server."
-msgstr "您想要加入屬於{} 的遊戲嗎？您當前的遊戲進度將被自動保存，並會退出當前的服務器"
+msgstr "您想要加入屬於{} 的遊戲嗎？您當前的遊戲進度將被自動儲存，並會退出當前的服務器"
 
 msgctxt "banner_prompt_client_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? Your current game will be autosaved and you will quit the current server."
-msgstr "{0} 邀請您加入由{1} 主辦的遊戲，您當前的遊戲進度將被自動保存，並會退出當前的服務器。您確認要加入嗎？ "
+msgstr "{0} 邀請您加入由{1} 主辦的遊戲，您當前的遊戲進度將被自動儲存，並會退出當前的服務器。您確認要加入嗎？ "
 
 msgctxt "banner_prompt_game_join_anon"
 msgid "Do you want to join a game hosted by {}? Your current game will be autosaved."
-msgstr "您想加入由{} 主辦的遊戲嗎？您當前的遊戲進度將被自動保存"
+msgstr "您想加入由{} 主辦的遊戲嗎？您當前的遊戲進度將被自動儲存"
 
 msgctxt "banner_prompt_game_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? Your current game will be autosaved."
-msgstr "{0} 邀請您加入由{1} 主持的遊戲，您當前的遊戲進度將被自動保存。您確認要加入嗎？ "
+msgstr "{0} 邀請您加入由{1} 主持的遊戲，您當前的遊戲進度將被自動儲存。您確認要加入嗎？ "
 
 msgctxt "banner_prompt_nogame_join_anon"
 msgid "Do you want to join a game hosted by {}?"
@@ -1265,11 +1265,11 @@ msgstr "{0} 邀請您加入由{1} 主持的遊戲。您確認要加入嗎？ "
 
 msgctxt "banner_prompt_server_join_anon"
 msgid "Do you want to join a game hosted by {}? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
-msgstr "你想加入由{} 主持的遊戲嗎？警告:你正在主持一場遊戲，所有連接的玩家將被斷開。您當前的遊戲將被自動保存"
+msgstr "你想加入由{} 主持的遊戲嗎？警告:你正在主持一場遊戲，所有連接的玩家將被斷開。您當前的遊戲將被自動儲存"
 
 msgctxt "banner_prompt_server_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
-msgstr "{0} 邀請您加入由{1} 主持的遊戲。警告:你目前正在主持一個遊戲，當前遊戲中所有連接的玩家都會被斷開。您當前的遊戲將被自動保存。您確認要加入嗎？ "
+msgstr "{0} 邀請您加入由{1} 主持的遊戲。警告:你目前正在主持一個遊戲，當前遊戲中所有連接的玩家都會被斷開。您當前的遊戲將被自動儲存。您確認要加入嗎？ "
 
 msgctxt "bill_show_full"
 msgid "Show full billing details"
@@ -2041,7 +2041,7 @@ msgstr "放大視角以進行編輯"
 
 msgctxt "editor_warn_closed"
 msgid "Remember to set the service level to passenger service to allow pax to use this line."
-msgstr "將提供服務設置為載客時，乘客才會乘坐該路線。 "
+msgstr "將提供服務設定為載客時，乘客才會乘坐該路線。 "
 
 msgctxt "editor_warn_need_train_acc"
 msgid "Buy and schedule at least one train to this line."
@@ -2053,11 +2053,11 @@ msgstr "在這種巡航速度下，火車可能無法彌補延誤。 "
 
 msgctxt "editor_warn_zero_interval"
 msgid "At least one interval time is set to 0. Use the timing calculator after you are done editing the line."
-msgstr "至少有一個間距時間被設置為0。編輯完路線後請使用列車時刻計算器。 "
+msgstr "至少有一個間距時間被設定為0。編輯完路線後請使用列車時刻計算器。 "
 
 msgctxt "editor_warn_zero_leg"
 msgid "At least one leg travel time is set to 0. Use the timing calculator after you are done editing the line."
-msgstr "至少有一個運行時間被設置為0。編輯完路線後請使用列車時刻計算器。 "
+msgstr "至少有一個運行時間被設定為0。編輯完路線後請使用列車時刻計算器。 "
 
 msgctxt "empty_clipboard"
 msgid "<Empty clipboard>"
@@ -2093,7 +2093,7 @@ msgstr "遊戲狀態已損壞"
 
 msgctxt "error_saving_internal"
 msgid "Internal error while saving game"
-msgstr "保存遊戲時出現內部錯誤"
+msgstr "儲存遊戲時出現內部錯誤"
 
 msgctxt "error_too_new_save"
 msgid "The game version that created this save file is newer than your game version. Update the game to load this file."
@@ -2445,7 +2445,7 @@ msgstr "貼上一個加入代碼來加入一個玩家託管的服務器。如果
 
 msgctxt "joincode_server_info"
 msgid "This join code allows any player to join your hosted game, even if they are not in your friend list. Make sure your Access rules are set to Allow or to Ask, otherwise players will be ignored even if they have a correct join code."
-msgstr "這個加入代碼允許包括不在你的好友列表中的任意玩家加入你的遊戲。請確保您的訪問規則設置為允許或詢問，否則即使玩家有正確的加入代碼，他們的請求也會被忽略。 "
+msgstr "這個加入代碼允許包括不在你的好友列表中的任意玩家加入你的遊戲。請確保您的訪問規則設定為允許或詢問，否則即使玩家有正確的加入代碼，他們的請求也會被忽略。 "
 
 msgctxt "joint_multiplayer_name"
 msgid "Join multiplayer game"
@@ -2653,7 +2653,7 @@ msgstr "自動"
 
 msgctxt "lineeditor_basics"
 msgid "Basics"
-msgstr "路線設置:"
+msgstr "路線設定:"
 
 msgctxt "lineeditor_bp_station"
 msgid "Build your tracks blueprint to enable this platform"
@@ -3049,7 +3049,7 @@ msgstr "上傳模組中……"
 
 msgctxt "mod_uploader_info"
 msgid "The mod uploader is a tool for mod developers. If you want to use mods when playing the game, subscribe to them in the Steam Workshop and enable them when creating a new game."
-msgstr "mod 上傳器是mod 開發者的工具。如果你想在遊戲中使用mod ，請在Steam 創意工坊中訂閱，並在建立新遊戲時啟用模組"
+msgstr "模組上傳器是模組開發者的工具。如果你想在遊戲中使用模組，請在Steam 創意工坊中訂閱，並在建立新遊戲時啟用模組"
 
 msgctxt "mod_uploader_info_guide"
 msgid "Mod development guide"
@@ -3557,7 +3557,7 @@ msgstr "是否覆蓋{}？ "
 
 msgctxt "ovewrite_other_desc"
 msgid "{} was saved with a different game version. Do you want to overwrite it, or rename it to keep its original contents, then save the game?"
-msgstr "{} 被保存為不同的遊戲版本。你是想覆蓋它，還是給它重新命名以保持原來的內容，然後再保存遊戲？ "
+msgstr "{} 被儲存為不同的遊戲版本。你是想覆蓋它，還是給它重新命名以保持原來的內容，然後再儲存遊戲？ "
 
 msgctxt "parent"
 msgid "Parent:"
@@ -3697,7 +3697,7 @@ msgstr "離開到主選單"
 
 msgctxt "rename_save"
 msgid "Rename and save"
-msgstr "重新命名並保存"
+msgstr "重新命名並儲存"
 
 msgctxt "renderer"
 msgid "Renderer:"
@@ -3821,19 +3821,19 @@ msgstr "速度"
 
 msgctxt "save"
 msgid "Save"
-msgstr "保存"
+msgstr "儲存"
 
 msgctxt "save_clipboard"
 msgid "Save clipboard"
-msgstr "保存到剪貼簿"
+msgstr "儲存到剪貼簿"
 
 msgctxt "save_file_name"
 msgid "Save file name"
-msgstr "保存存檔名稱"
+msgstr "儲存檔案名稱"
 
 msgctxt "save_game"
 msgid "Save game"
-msgstr "保存遊戲"
+msgstr "儲存遊戲"
 
 msgctxt "sax_0"
 msgid "Neutral"
@@ -3917,7 +3917,7 @@ msgstr "已選"
 
 msgctxt "settings"
 msgid "Settings"
-msgstr "設置"
+msgstr "設定"
 
 msgctxt "show_all_clips"
 msgid "Show saved clipboard clips"
@@ -4125,7 +4125,7 @@ msgstr "Steam聊天和Steam好友中的加入遊戲選項可以用來請求訪�
 
 msgctxt "steam_chat_server_info"
 msgid "The Invite options in Steam Chat and Steam Friends can be used to invite other players to your hosted game. Your settings for the the Access rules apply to Steam invites."
-msgstr "Steam聊天和Steam好友中的邀請選項，可以用來邀請其他玩家參加你的遊戲。你對訪問規則的設置也適用於Steam邀請"
+msgstr "Steam聊天和Steam好友中的邀請選項，可以用來邀請其他玩家參加你的遊戲。你對訪問規則的設定也適用於Steam邀請"
 
 msgctxt "steam_friends"
 msgid "Steam Friends"
@@ -4449,7 +4449,7 @@ msgstr "編組"
 
 msgctxt "teo.plat_auto_direction_lr"
 msgid "Drive on left for double platforms"
-msgstr "雙月台設置行駛方向為左行"
+msgstr "雙月台設定行駛方向為左行"
 
 msgctxt "teo.plat_auto_scissors"
 msgid "Auto append scissor intersections and path signals for double platforms"
@@ -4541,7 +4541,7 @@ msgstr "按最高速度排序"
 
 msgctxt "trackeditor_hide_controls"
 msgid "Hide control points at low zoom"
-msgstr "低縮放時隱藏控制點"
+msgstr "縮小地圖時隱藏控制點"
 
 msgctxt "tracks_total"
 msgid "Tracks total"
@@ -4733,7 +4733,7 @@ msgstr "裝機功率:"
 
 msgctxt "train_intervention_dialog_desc"
 msgid "This intervention will reset the train run to follow its current orders, respawn it on its next destination, and r elocate its pax to their next stops. The price is ${}."
-msgstr "本次干預將重新設定列車位置，使其遵循當前的調度指令，並將乘客安置到下一站，同時還需支付賠償金。總計${}"
+msgstr "本次干預將重置列車位置至下個目的地，使其遵循當前的調度指令，並將乘客安置到下一站，同時還需支付賠償金。總計${}"
 
 msgctxt "train_intervention_dialog_title"
 msgid "Train intervention"
@@ -5204,7 +5204,7 @@ msgstr "列車時刻計算器"
 
 msgctxt "lineeditor_auto_interval_run"
 msgid "Set min. interval times"
-msgstr "設置最小間距時間"
+msgstr "設定最小間距時間"
 
 msgctxt "lineeditor_auto_inverval"
 msgid "Min. interval (h:mm:ss):"
@@ -5228,7 +5228,7 @@ msgstr "最小停靠時間(h:mm:ss):"
 
 msgctxt "lineeditor_bulk_wait_run"
 msgid "Set min. stop times"
-msgstr "設置最小停靠時間"
+msgstr "設定最小停靠時間"
 
 msgctxt "lineeditor_interval_time"
 msgid "Interval time (mm:ss):"
@@ -5336,7 +5336,7 @@ msgstr "{} 新乘客"
 
 msgctxt "plat_auto_direction_lr"
 msgid "Drive on left for double platforms"
-msgstr "雙軌設置單行方向為左行"
+msgstr "雙軌設定單行方向為左行"
 
 msgctxt "plat_auto_scissors"
 msgid "Auto append scissor intersections and path signals for double platforms"
