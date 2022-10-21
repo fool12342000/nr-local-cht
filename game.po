@@ -6,7 +6,7 @@ msgstr "人次"
 
 msgctxt "accounting_pax_found_train_too_full"
 msgid "Boarding failed: full train"
-msgstr "    列車滿員"
+msgstr "    因列車滿員而無法上車"
 
 msgctxt "auto_platform_scroll"
 msgid "Automatically track and scroll the list based on the time of day"
@@ -246,7 +246,7 @@ msgstr "格式: hh:mm:ss \n該路線首趟列車從始發站發車的時間。 \
 
 msgctxt "lineeditor_main_platform"
 msgid "Main platform:"
-msgstr "主月台:"
+msgstr "主要月台:"
 
 msgctxt "lineeditor_manual_interval"
 msgid "Manual interval:"
@@ -298,7 +298,7 @@ msgstr "車站行為:"
 
 msgctxt "lineeditor_wait_kind_limbo"
 msgid "Black hole main, wait secondary"
-msgstr "優先於臨時月台等候，否則於主要月台自動清除"
+msgstr "優先於臨時月台等候，否則自動隱藏"
 
 msgctxt "lineeditor_wait_kind_normal"
 msgid "Wait on platforms"
@@ -314,7 +314,7 @@ msgstr "刪除所有路線"
 
 msgctxt "mass_del_lines_desc"
 msgid "Do you want to delete all lines?"
-msgstr "你確定要刪除所有路線嗎？ "
+msgstr "你確定要刪除所有路線嗎？"
 
 msgctxt "mass_del_lines_title"
 msgid "Delete all lines"
@@ -366,7 +366,7 @@ msgstr "無效路線"
 
 msgctxt "order_error_not_fit"
 msgid "Runs do not fit between previous and next order"
-msgstr "兩個調度指令之間列車不建議運行"
+msgstr "兩個調度指令之間列車無法運行"
 
 msgctxt "order_error_two_arrival_by"
 msgid "Arrival By orders cannot appear one after the other"
@@ -494,7 +494,7 @@ msgstr "三天"
 
 msgctxt "timetable_heuristic_building_tp"
 msgid "Refreshing pathfind heuristic..."
-msgstr "正在刷新尋路模式…"
+msgstr "正在更新尋路模式…"
 
 msgctxt "timetable_rebuild_tp"
 msgid "Rebuilding timetables..."
@@ -746,7 +746,7 @@ msgstr "<路線起點>"
 
 msgctxt "traineditor_order_exit"
 msgid "Exit:"
-msgstr "終到站:"
+msgstr "終點站:"
 
 msgctxt "traineditor_order_exit_last_stop"
 msgid "<Last line stop>"
@@ -814,7 +814,7 @@ msgstr "經過"
 
 msgctxt "traineditor_order_start_time_desc"
 msgid "Format: hh:mm:ss\nTime of day to start one or more runs of the selected line."
-msgstr "格式:hh:mm:ss\n一天中開始一次或多次運行選定行的時間。 "
+msgstr "格式:hh:mm:ss\n一天中開始一次或多次運行選定行的路線。 "
 
 msgctxt "traineditor_tz"
 msgid "Time zone:"
@@ -876,9 +876,6 @@ msgctxt "weekday_shorter_wednesday"
 msgid "We"
 msgstr "三"
 
-# ---------------------------- ------------------------------
-# 1.4.22 及以前版本字符串
-
 msgctxt "10_minutes"
 msgid "10 minutes"
 msgstr "10 分鐘"
@@ -905,11 +902,11 @@ msgstr "60 分鐘"
 
 msgctxt "acc_export_desc"
 msgid "Accounting data has been exported to {}"
-msgstr "財務數據已導出至{}"
+msgstr "財務數據已匯出至{}"
 
 msgctxt "acc_export_title"
 msgid "Exported accounting data"
-msgstr "財務數據導出成功"
+msgstr "財務數據匯出成功"
 
 msgctxt "accounting"
 msgid "Accounting"
@@ -1477,7 +1474,7 @@ msgstr "顏色:"
 
 msgctxt "company_tab_info"
 msgid "Info"
-msgstr "信息"
+msgstr "資訊"
 
 msgctxt "confirm_bp"
 msgid "Do you want to build the current blueprint?"
@@ -1821,7 +1818,7 @@ msgstr "點擊一個軌道控制點來綁定到軌道節點"
 
 msgctxt "editor_select_add_platform"
 msgid "Click platform letters in stations to add stops to the line"
-msgstr "點擊車站內的月台字母編號，增加路線的停靠站"
+msgstr "點擊車站內的月台編號，增加路線的停靠站"
 
 msgctxt "editor_select_add_waypoint"
 msgid "Click track segments to add waypoints to the line"
@@ -4453,7 +4450,7 @@ msgstr "雙月台設定行駛方向為左行"
 
 msgctxt "teo.plat_auto_scissors"
 msgid "Auto append scissor intersections and path signals for double platforms"
-msgstr "雙月台自動增加月台橫渡線及信號"
+msgstr "雙月台自動添加月台橫渡線及信號"
 
 msgctxt "teo.two ex_mode"
 msgid "Double track mode"
@@ -5340,11 +5337,11 @@ msgstr "雙軌設定單行方向為左行"
 
 msgctxt "plat_auto_scissors"
 msgid "Auto append scissor intersections and path signals for double platforms"
-msgstr "自動增加月台橫渡線及信號機"
+msgstr "自動添加月台橫渡線及信號機"
 
 msgctxt "plat_auto_stops"
 msgid "Auto append platform stop point signals"
-msgstr "自動增加月台停車標誌"
+msgstr "自動添加月台停車標誌"
 
 msgctxt "sax_tooltip"
 msgid "Overall: {0:+.2f} ({1}) | Time: {2:+.2f} | Fare: {3:+.2f}"
@@ -5404,7 +5401,7 @@ msgstr "存包處"
 
 msgctxt "teo.plat_auto_stops"
 msgid "Auto append platform stop point signals"
-msgstr "自動附加月台停車標誌"
+msgstr "自動添加月台停車標誌"
 
 msgctxt "track_ground"
 msgid "Ground"
