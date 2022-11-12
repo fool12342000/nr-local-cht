@@ -1,3 +1,277 @@
+#v1.5.41
+msgctxt "auto_clone"
+msgid "(Auto)"
+msgstr "(自動)"
+
+#v1.5.41
+msgctxt "constraint_xform_grid_snap"
+msgid "Snap:"
+msgstr "對齊:"
+
+#v1.5.41
+msgctxt "constraint_xform_rotate"
+msgid "Rotate:"
+msgstr "旋轉:"
+
+#v1.5.41
+msgctxt "constraint_xform_rotate_tip"
+msgid "Rotate track end:"
+msgstr "旋轉軌道終點:"
+
+#v1.5.41
+msgctxt "constraint_xform_translate"
+msgid "Translate:"
+msgstr "位移:"
+
+#v1.5.41
+msgctxt "editor_tip_dupe"
+msgid "Ctrl-B to duplicate selected objects in-place"
+msgstr "Ctrl-B 以複製選取物件"
+
+#v1.5.41
+msgctxt "editor_tip_sel_track_flip"
+msgid "{} to flip side of selected parallel tracks"
+msgstr "{} 翻轉選中的平行軌道"
+
+#v1.5.41
+msgctxt "intervene_all_stale_trains"
+msgid "Intervene all stale"
+msgstr "干預全部過時運行"
+
+#v1.5.41
+msgctxt "line_alert_closed"
+msgid "Line is closed"
+msgstr "線路已停用"
+
+#v1.5.41
+msgctxt "line_alert_invalid_legs"
+msgid "Contains invalid path(s)"
+msgstr "包含無效路徑"
+
+#v1.5.41
+msgctxt "line_skip_parent_stop"
+msgid "Skip [{0}] {1}"
+msgstr "跳過 [{0}] {1}"
+
+#v1.5.41
+msgctxt "lineeditor_clone_parent"
+msgid "Stop properties:"
+msgstr "停靠站屬性:"
+
+#v1.5.41
+msgctxt "lineeditor_clone_parent_clone"
+msgid "Copy from parent line"
+msgstr "從上級線路複製"
+
+#v1.5.41
+msgctxt "lineeditor_clone_parent_custom"
+msgid "Customize for this line service"
+msgstr "自訂此線路服務"
+
+#v1.5.41
+msgctxt "lineeditor_cruise_speed_ns"
+msgid "Cruise speed:"
+msgstr "巡航速度:"
+
+#v1.5.41
+msgctxt "lineeditor_leg_eta"
+msgid "Effective time:"
+msgstr "有效時間:"
+
+#v1.5.41
+msgctxt "lineeditor_leg_eta_custom_speed"
+msgid "Custom speed (km/h):"
+msgstr "自訂速度 (km/h):"
+
+#v1.5.41
+msgctxt "lineeditor_leg_eta_custom_time"
+msgid "Custom time:"
+msgstr "自訂時間:"
+
+#v1.5.41
+msgctxt "lineeditor_leg_eta_custom_time_desc"
+msgid "Format: (hh:)mm:ss\nThis custom time will be approximated by finding a cruise speed.\nIt will be ignored if the resulting speed is too slow or too fast.\nTrains might speed up if they are late."
+msgstr "格式: (hh:)mm:ss\n將調整巡航速度以滿足此自訂時間\n若速度過高或過低將忽略此自訂時間.\n列車誤點將加速."
+
+#v1.5.41
+msgctxt "lineeditor_leg_eta_mode"
+msgid "Leg timing:"
+msgstr "用時:"
+
+#v1.5.41
+msgctxt "lineeditor_leg_eta_mode_auto"
+msgid "Automatic"
+msgstr "自動"
+
+#v1.5.41
+msgctxt "lineeditor_leg_eta_mode_speed"
+msgid "Custom speed"
+msgstr "自訂速度"
+
+#v1.5.41
+msgctxt "lineeditor_leg_eta_mode_time"
+msgid "Custom time"
+msgstr "自訂時間"
+
+#v1.5.41
+msgctxt "lineeditor_service_of"
+msgid "Service of:"
+msgstr "服務:"
+
+#v1.5.41
+msgctxt "lineeditor_stop_panel_leg_title"
+msgid "Leg {0} {1} {2}"
+msgstr "行程段 {0} {1} {2}"
+
+#v1.5.41
+msgctxt "lineeditor_stop_panel_line_service_stop"
+msgid "Line service stop"
+msgstr "線路服務停靠站"
+
+#v1.5.41
+msgctxt "lineeditor_suffix"
+msgid "Suffix:"
+msgstr "後綴:"
+
+#v1.5.41
+msgctxt "lineeditor_tags_inherit_parent"
+msgid "Parent line tags are also inherited by trains\n"
+msgstr "上級線路之標籤也將被列車繼承\n"
+
+#v1.5.41
+msgctxt "lineeditor_tooltip_create_line_service"
+msgid "Create a new line service"
+msgstr "建立新的線路服務"
+
+#v1.5.41
+msgctxt "list_sort_compact"
+msgid "Compact"
+msgstr "緊湊"
+
+#v1.5.41
+msgctxt "mass_intervention_stale_trains_but"
+msgid "All stale trains intervention"
+msgstr "干預全部過時運行列車"
+
+#v1.5.41
+msgctxt "mass_intervention_stale_trains_desc"
+msgid "Do you want to issue an intervention to all stale trains for a price of ${}?"
+msgstr "你是否要干預所有過時運行的列車，並支付共計${}"?"
+
+#v1.5.41
+msgctxt "mass_intervention_stale_trains_title"
+msgid "Confirm all stale trains intervention"
+msgstr "確認干預全部過時運行列車"
+
+#v1.5.41
+msgctxt "mass_recalc_all_lines_but"
+msgid "Refresh all line timings"
+msgstr "更新全部線路時間"
+
+#v1.5.41
+msgctxt "picker_mode_flat"
+msgid "Flat"
+msgstr "平面"
+
+#v1.5.41
+msgctxt "picker_mode_line_tags"
+msgid "Line tags"
+msgstr "線路標籤"
+
+#v1.5.41
+msgctxt "picker_mode_lines"
+msgid "Lines"
+msgstr "線路"
+
+#v1.5.41
+msgctxt "picker_mode_recent"
+msgid "Recent"
+msgstr "最近"
+
+#v1.5.41
+msgctxt "picker_mode_tags"
+msgid "Tags"
+msgstr "標籤"
+
+#v1.5.41
+msgctxt "plats_show_conflicts"
+msgid "Highlight overlapping train stops"
+msgstr "標記重疊列車停靠站"
+
+#v1.5.41
+msgctxt "plats_stacked_lines"
+msgid "Single column per platform"
+msgstr "單列每月台"
+
+#v1.5.41
+msgctxt "rtstat_leg_late"
+msgid "Lateness estimation"
+msgstr "誤點估計"
+
+#v1.5.41
+msgctxt "train_info_late_predicted"
+msgid "Est. late by {}"
+msgstr "估計晚 {}"
+
+#v1.5.41
+msgctxt "train_list_compact"
+msgid "Compact"
+msgstr "緊湊"
+
+#v1.5.41
+msgctxt "train_orders_auto_copy_shift"
+msgid "Copy:"
+msgstr "複製:"
+
+#v1.5.41
+msgctxt "train_orders_auto_copy_shift_go_parent"
+msgid "Edit parent orders"
+msgstr "編輯上級指令"
+
+#v1.5.41
+msgctxt "traineditor_order_start_time_arrange_top_desc2"
+msgid "Set time to the earliest possible time which allows the previous order to not have a padding wait on its last run\nIgnores pending day of week and start time edits\nMulti day orders will only consider the first day"
+msgstr "設定時間為最早可能時間以使上一個指令不需填充等待時間\n 忽略待處理的星期幾和開始時間編輯\n多日命令只考慮首日"
+
+
+# ----------------------------------------------------------
+# modified strings
+
+#v1.5.41
+msgctxt "constraints_bulk_editor"
+msgid "Bulk editor"
+msgstr "批量編輯器"
+
+#v1.5.41
+msgctxt "editor_select_add_platform"
+msgid "Click platform names in stations to add stops to the line"
+msgstr "點擊車站內的月台名稱，增加路線的停靠站"
+
+#v1.5.41
+msgctxt "editor_select_alt_stop"
+msgid "Click platform names in stations to add a secondary platform to the stop"
+msgstr "點擊車站中的月台名稱，將其設定為該停靠站之臨時月台"
+
+#v1.5.41
+msgctxt "editor_select_change_platform"
+msgid "Click platform names in stations to change the stop main platform"
+msgstr "點擊車站中的月台名稱，選擇該站該路線的主要月台"
+
+#v1.5.41
+msgctxt "kb_track_flip_signal"
+msgid "Tracks: flip track side"
+msgstr "軌道: 翻轉軌道方向"
+
+#v1.5.41
+msgctxt "lineeditor_cruise_speed_desc"
+msgid "Trains will try to accelerate to and keep this speed while traveling between stops.\nTrains might speed up if they are late."
+msgstr "列車行駛時將試著加速到這個速度運行，如果列車晚點可能將加快速度。"
+
+#v1.5.41
+msgctxt "order_error_two_arrival_by"
+msgid "Arrive No Later orders cannot appear one after the other"
+msgstr "不遲於調度指令不能連續出現"
+
 # ----------------------------------------------------------
 
 msgctxt "accounting_events_post"
@@ -64,21 +338,9 @@ msgctxt "constraint_remove_parent_action"
 msgid "Remove"
 msgstr "移除"
 
-msgctxt "constraints_bulk_editor"
-msgid "Track bulk editor"
-msgstr "批量軌道編輯器"
-
 msgctxt "editor_select_alt_signal"
 msgid "Click signal controls to set a signal as the secondary path signal for the stop"
 msgstr "點擊信號控制按鈕，將信號設定為該車站的臨時月台信號"
-
-msgctxt "editor_select_alt_stop"
-msgid "Click platform letters in stations to add a secondary platform to the stop"
-msgstr "點擊車站中的月台編號，將其設定為該停靠站之臨時月台"
-
-msgctxt "editor_select_change_platform"
-msgid "Click platform letters in stations to change the stop main platform"
-msgstr "點擊車站中的月台編號，選擇該站該路線的主要月台"
 
 msgctxt "editor_warn_only_trains"
 msgid "Pax will leave and won't board trains running this line."
@@ -367,10 +629,6 @@ msgstr "無效路線"
 msgctxt "order_error_not_fit"
 msgid "Runs do not fit between previous and next order"
 msgstr "兩個調度指令之間列車無法運行"
-
-msgctxt "order_error_two_arrival_by"
-msgid "Arrival By orders cannot appear one after the other"
-msgstr "調度指令不能一個接一個出現"
 
 msgctxt "order_invalid_line"
 msgid "Invalid line"
@@ -1816,10 +2074,6 @@ msgctxt "edito r_pick_constraint_parent_left"
 msgid "Click a control point to make it the constraint parent"
 msgstr "點擊一個軌道控制點來綁定到軌道節點"
 
-msgctxt "editor_select_add_platform"
-msgid "Click platform letters in stations to add stops to the line"
-msgstr "點擊車站內的月台編號，增加路線的停靠站"
-
 msgctxt "editor_select_add_waypoint"
 msgid "Click track segments to add waypoints to the line"
 msgstr "點擊軌道區段，將路徑點增加到路線上"
@@ -2524,10 +2778,6 @@ msgctxt "kb_track_depot"
 msgid "Tracks: new depot"
 msgstr "軌道:建立機廠"
 
-msgctxt "kb_track_flip_signal"
-msgid "Tracks: flip selected signal"
-msgstr "軌道:翻轉選擇信號"
-
 msgctxt "kb_track_layer_down"
 msgid "Tracks: decr. new track layer"
 msgstr "軌道:降低軌道高度"
@@ -2667,10 +2917,6 @@ msgstr "路線顏色:"
 msgctxt "lineeditor_cruise_speed"
 msgid "Cruise speed (km/h):"
 msgstr "巡航速度(km/h):"
-
-msgctxt "lineeditor_cruise_speed_desc"
-msgid "Trains will try to accelerate to and keep this speed while traveling between stops. They may speed up if they are late."
-msgstr "列車行駛時將保持到這個速度，如果列車晚點可能將加快速度。 "
 
 msgctxt "lineeditor_default_timings"
 msgid "Default timings"
